@@ -186,7 +186,8 @@ section {border-top: 5px solid #84270b;width: 100%;}
 #section2{width: 1200px;margin: 5vh auto;border: 1px solid #cdcdcd;display: flex;flex-direction: column;}
 
 #section2  .title{width: 100%;display: flex;}
-#section2  .title a{display: flex;align-items: center;justify-content: center;;width: 100%;height: 50px;border: 1px solid #cdcdcd;}
+#section2  .title a{display: flex;align-items: center;justify-content: center;;width: 100%;height: 50px;border-right: 1px solid #cdcdcd;background: #fafafa;border-bottom: 1px solid #cdcdcd}
+#section2  .title a.click{border-bottom: 0px solid #000;font-weight: 700;background: #fff;}
 
 .page1{display: flex;align-items: center;justify-content: center;padding: 5vh 0;flex-direction: column;width: 860px;margin: 0 auto;}
 .page1 .img_box {height: 700px;overflow: hidden;position: relative;}
@@ -221,3 +222,7 @@ footer {
     margin-top: 1vh;
     color: #767676;
   }
+
+  
+  .remove,.add{cursor: pointer;}
+  
